@@ -1,0 +1,36 @@
+{
+  "name": "zx-inote",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "electron:serve": "cross-env NODE_ENV=development vue-cli-service electron:serve"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.6",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.8",
+    "sqlite3": "^5.1.2",
+    "vditor": "^3.8.18",
+    "vue": "^3.2.13",
+    "vue-class-component": "^8.0.0-0",
+    "vue-cli-plugin-electron-builder": "^2.1.1",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "4.5.0",
+    "@vue/cli-service": "~5.0.0",
+    "electron": "21.2.0",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "style-resources-loader": "^1.5.0",
+    "typescript": "~4.5.5",
+    "vue-cli-plugin-style-resources-loader": "^0.1.5"
+  }
+}
